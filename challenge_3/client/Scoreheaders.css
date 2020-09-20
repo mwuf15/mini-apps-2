@@ -1,0 +1,45 @@
+/* .card {
+  display:grid;
+  grid-template-columns: 200px 400px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 200p 200px;
+  grid-template-rows: 100px 100px;
+  height: 500px;
+} */
+.card {
+  display:flex;
+  /* grid-template-columns: 200px 400px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 200p 200px;
+  grid-template-rows: 100px 100px; */
+  /* background-color: cadetblue; */
+
+  width: 90%;
+}
+
+.names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 250px;
+  background-color: rgb(155, 232, 255);
+  border: 2px solid #000;
+  border-top-left-radius: 10px;
+}
+.frames {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 100px;
+  background-color: rgb(155, 232, 255);
+  border: 2px solid #000;
+}
+
+.totals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 150px;
+  background-color: rgb(155, 232, 255);
+  border-top-right-radius: 10px;
+  border: 2px inset #000;
+}
